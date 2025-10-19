@@ -37,14 +37,15 @@ FactFlow allows users to input any text, article, or claim, and instantly get a 
    ```
    npm install
 
-3. **Add your environment variables
+3. **Add your environment variables**
    Create a `.env.local` file in the root folder and add:
    NEXT_PUBLIC_OPENAI_API_KEY=your_openai_api_key_here
-4. Run the development server
+   
+5. Run the development server
    ```
    npm run dev
 
-5. **Open in your browser**
+6. **Open in your browser**
    Visit http://localhost:3000
 
 ---
