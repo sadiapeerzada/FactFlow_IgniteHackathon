@@ -1,67 +1,67 @@
-# FactFlow_IgniteHackathon
-FactFlow is an AI-powered fact verification platform that helps users instantly check the credibility of online information. It analyzes text using real-time data sources and provides reliable truth scores to combat misinformation.
-🧠 FactFlow
+# FactFlow – Ignite Hackathon
 
-FactFlow is an AI-powered fact verification platform designed to combat misinformation. It allows users to input any text, article, or claim, and instantly get a credibility score along with verified insights from trusted sources.
+**FactFlow** is an AI-powered fact verification platform that helps users instantly check the credibility of online information. It analyzes text using real-time data sources and provides reliable truth scores to combat misinformation.
 
-🚀 Features
+## 🧠 About FactFlow
 
-🔍 Instant Fact Checking – Analyze text or claims in real-time.
+FactFlow allows users to input any text, article, or claim, and instantly get a credibility score along with verified insights from trusted sources.
 
-🤖 AI-Powered Verification – Uses advanced NLP and web search to identify factual accuracy.
+---
 
-📊 Truth Score – Generates a percentage-based reliability score.
+## 🚀 Features
 
-🌐 Clean, Modern UI – Built with Next.js, TailwindCSS, and Framer Motion.
+- **🔍 Instant Fact Checking** – Analyze text or claims in real-time.  
+- **🤖 AI-Powered Verification** – Uses advanced NLP and web search to identify factual accuracy.  
+- **📊 Truth Score** – Generates a percentage-based reliability score.  
+- **🌐 Clean, Modern UI** – Built with Next.js, TailwindCSS, and Framer Motion.  
+- **⚡ Fast and Scalable** – Deployed on Vercel for seamless performance.  
 
-⚡ Fast and Scalable – Deployed on Vercel for seamless performance.
+---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-Frontend: Next.js 15, React 19, TailwindCSS, Framer Motion
+- **Frontend:** Next.js 15, React 19, TailwindCSS, Framer Motion  
+- **Backend/API:** OpenAI API (GPT model)  
+- **Deployment:** Vercel  
 
-Backend/API: OpenAI API (GPT model)
+---
 
-Deployment: Vercel
+## ⚙️ Setup Instructions
 
-⚙️ Setup Instructions
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/sadiapeerzada/FactFlow_IgniteHackathon.git
+   cd factflow
 
-Clone the repository
+2. **Install dependencies**
+   ```
+   npm install
 
-git clone https://github.com/your-username/factflow.git
-cd factflow
+3. **Add your environment variables
+   Create a `.env.local` file in the root folder and add:
+   NEXT_PUBLIC_OPENAI_API_KEY=your_openai_api_key_here
+4. Run the development server
+   ```
+   npm run dev
 
+5. **Open in your browser**
+   Visit http://localhost:3000
 
-Install dependencies
+---
 
-npm install
-
-
-Add your environment variables
-Create a .env.local file in the root folder and add:
-
-NEXT_PUBLIC_OPENAI_API_KEY=your_openai_api_key_here
-
-
-Run the development server
-
-npm run dev
-
-
-Open http://localhost:3000
- in your browser.
-
-💡 Future Enhancements
-
-🧩 Browser Extension for on-page fact-checking
-
-🔔 Real-time misinformation alerts
+## 💡 Future Enhancements
+- **🧩 Browser Extension** for on-page fact-checking
+- **🔔 Real-time** misinformation alerts
+- **📱 Mobile app** version
+- **🗂️ Database integration** for verified claim history
 
 ----
 
-👩‍💻 Made By
-Sadia Peerzada, Sadia Zafreen, and Maria Ali
+## 👩‍💻 Made By
+- **Sadia Peerzada** ([GitHub](https://github.com/sadiapeerzada)) 
+- **Maria Ali** ([Github](https://github.com/mariaali111))
+- **Sadia Zafreen** ([Github](https://github.com/sadia101-source))
 
-📱 Mobile app version
 
-🗂️ Database integration for verified claim history
+
+
