@@ -31,7 +31,7 @@ FactFlow allows users to input any text, article, or claim, and instantly get a 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/sadiapeerzada/FactFlow_IgniteHackathon.git
-   cd factflow
+   cd FactFlow_IgniteHackathon
 
 2. **Install dependencies**
    ```
